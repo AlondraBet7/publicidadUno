@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+.padreTabla {
+  display: flex;
+  justify-content: center; }
+  .padreTabla table {
+    border: 15px solid #cdc9db;
+    height: auto;
+    width: 40vw; }
+  .padreTabla tr {
+    text-align: left;
+    background-color: #cdc9db; }
+  .padreTabla .fondoBlanco {
+    background-color: white; }
+  .padreTabla .imagenDos {
+    width: 100%; }
+  .padreTabla .fondoAzulClaro {
+    background-color: #9a9fac;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7%; }
+    .padreTabla .fondoAzulClaro .letraAzul {
+      font-weight: bold;
+      color: #1a0a58;
+      font-size: small;
+      text-align: right; }
+  .padreTabla .letraAzulGrande {
+    color: #1a0a58;
+    font-weight: bolder;
+    font-size: medium;
+    text-align: center;
+    background-color: white;
+    padding-top: 5%; }
+    .padreTabla .letraAzulGrande .imagen {
+      padding-top: 5%; }
+  .padreTabla .fondoAzulOscuro {
+    background-color: #1a0a58;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%; }
+  .padreTabla .condiciones {
+    font-size: x-small;
+    text-align: justify;
+    color: black; }
+
+@media screen and (max-width: 1657px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center; }
+    .padreTabla table {
+      height: auto;
+      width: 30vw; } }
+
+@media screen and (max-width: 1550px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center; }
+    .padreTabla table {
+      height: auto;
+      width: 30vw; } }
+
+@media screen and (max-width: 1300px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center; }
+    .padreTabla table {
+      height: auto;
+      width: 30vw; } }
+
+@media screen and (max-width: 480px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center; }
+    .padreTabla table {
+      width: 20vw;
+      height: auto; } }
+
+@media screen and (max-width: 366px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .padreTabla table {
+      height: auto;
+      width: 10vw; } }
+
+@media screen and (max-width: 320px) {
+  .padreTabla {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 5vw; }
+    .padreTabla table {
+      height: auto;
+      max-width: 100%; } }

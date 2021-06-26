@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.padreTabla {
+    display: flex;
+    justify-content: center;
+
+    table {
+        border: 15px solid rgb(205, 201, 219);
+        height: auto;
+        width: 40vw;
+
+    }
+
+    tr {
+        text-align: left;
+        background-color: rgb(205, 201, 219);
+    }
+
+    .fondoBlanco {
+        background-color: white;
+    }
+
+    .imagenDos {
+        width: 100%;
+    }
+
+    .fondoAzulClaro {
+        background-color: rgb(154, 159, 172);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 7%;
+
+        .letraAzul {
+            font-weight: bold;
+            color: rgb(26, 10, 88);
+            font-size: small;
+            text-align: right;
+        }
+    }
+
+    .letraAzulGrande {
+        color: rgb(26, 10, 88);
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+        background-color: white;
+        padding-top: 5%;
+
+        .imagen {
+            padding-top: 5%;
+        }
+    }
+
+    .fondoAzulOscuro {
+        background-color: rgb(26, 10, 88);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .condiciones {
+        font-size: x-small;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+@media screen and (max-width: 1657px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+
+        table {
+            height: auto;
+            width: 30vw;
+
+        }
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+
+        table {
+            height: auto;
+            width: 30vw;
+
+        }
+    }
+}
+@media screen and (max-width: 1300px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+
+        table {
+            height: auto;
+            width: 30vw;
+
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+        table {
+            width: 20vw;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        table {
+            height: auto;
+            width: 10vw;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .padreTabla {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 5vw;
+        table {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}
